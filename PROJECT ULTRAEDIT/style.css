@@ -1,0 +1,139 @@
+.logo img {
+    width: 160px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-family: "Segoe UI";
+
+}
+
+.right ul {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+
+.right ul li {
+    list-style: none;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li img {
+    width: 33px;
+    height: 33px;
+    border: 2px solid rgb(76, 190, 243);
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    gap: 20px;
+}
+
+.first span {
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first p {
+    font-size: 26px;
+    width: 60vw;
+    text-align: center;
+}
+
+.btn {
+    background-color: #00b6d1;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 800;
+    margin: 12px 0px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.green {
+    background-color: #5cb85c;
+    font-size: 12px;
+    padding: 11px 13px !important;
+    min-height: 10px;
+    text-transform: none;
+}
+
+.blue {
+    font-size: 12px;
+    padding: 11px 13px;
+    min-height: 10px;
+    text-transform: none;
+}
+
+.second {
+    max-width: 67vw;
+    align-items: center;
+    margin: auto;
+
+}
+
+.item {
+    
+    width: 260px;
+    padding: 20px 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+}
+
+.item-lang {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 49px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+
+}
+.download{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.download img{
+    width: 55px;
+    padding: opx 20px;
+}
+.download :nth-child(2){
+    font-size: 23px;
+
+}
+@media screen and (max-width: 1145px) {
+    .grid{
+        
+        grid-template-columns: 1fr;
+    }
+    
+}
